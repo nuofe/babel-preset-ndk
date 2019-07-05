@@ -1,20 +1,31 @@
 {
-  "name": "babel-preset-airbnb",
+  "name": "@nuofe/babel-preset-ndk",
   "version": "4.0.1",
-  "description": "A babel preset for transforming your JavaScript for Airbnb",
-  "main": "index.js",
-  "author": "Josh Perez <josh.perez@airbnb.com>",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:airbnb/babel-preset-airbnb.git"
-  },
+  "description": "Fork babel-preset-airbnb.",
   "keywords": [
+    "nuonuo",
+    "nuofe",
+    "ndk",
     "babel",
-    "es6",
-    "es2015",
-    "javascript"
+    "preset"
+  ],
+  "author": "Nuo FE",
+  "contributors": [
+    "Josh Perez <josh.perez@airbnb.com>"
+  ],
+  "maintainers": [
+    "WANG DONG <jackyking.cn@gmail.com>"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuofe/babel-preset-ndk"
+  },
+  "homepage": "https://github.com/nuofe/babel-preset-ndk",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
@@ -30,10 +41,6 @@
     "@babel/preset-react": "^7.0.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
   },
-  "peerDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/runtime": "^7.0.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/runtime": "^7.0.0",
@@ -42,11 +49,8 @@
     "eslint-plugin-import": "^2.17.3",
     "safe-publish-latest": "^1.1.2"
   },
-  "scripts": {
-    "prepublish": "safe-publish-latest",
-    "pretest": "npm run lint",
-    "test": "npm run tests-only",
-    "tests-only": "node . && echo 'parsed successfully'",
-    "lint": "eslint ."
+  "peerDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/runtime": "^7.0.0"
   }
 }
