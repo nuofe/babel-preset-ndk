@@ -1,7 +1,7 @@
 {
   "name": "@nuofe/babel-preset-ndk",
   "version": "4.0.1",
-  "description": "Fork babel-preset-airbnb.",
+  "description": "Forked from babel-preset-airbnb.",
   "keywords": [
     "nuonuo",
     "nuofe",
@@ -19,9 +19,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nuofe/babel-preset-ndk"
+    "url": "https://github.com/nuofe/ndk/tree/master/packages/babel-preset-ndk"
   },
-  "homepage": "https://github.com/nuofe/babel-preset-ndk",
+  "homepage": "https://github.com/nuofe/ndk/tree/master/packages/babel-preset-ndk",
   "publishConfig": {
     "access": "public"
   },
